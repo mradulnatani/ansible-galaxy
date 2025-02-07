@@ -1,0 +1,10 @@
+---
+- name: Deploy Flask Application with SSL
+  hosts: all
+  become: yes
+
+  roles:
+    - flask_deploy
+
+
+#ansible-playbook -i inventory.ini deploy.yml

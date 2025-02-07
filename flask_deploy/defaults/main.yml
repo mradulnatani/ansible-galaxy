@@ -1,0 +1,8 @@
+---
+# defaults file for roles/flask_deploy
+    repo_url: "https://github.com/mradulnatani/Demo-Flask-Site.git"
+    project_name: "Demo-Flask-Site"
+    project_dir: "/home/mradul/{{ project_name }}"
+    domain: "127.0.0.1"
+    user: "mradul"
+    group: "www-data"
